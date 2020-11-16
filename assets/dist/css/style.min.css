@@ -11230,6 +11230,19 @@ fieldset:disabled a.btn {
     margin-bottom: 20px
 }
 
+.card-menu {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(101, 122, 233, .08), 0 0 6px rgba(101, 122, 233, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+}
+
+.card-menu:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(101, 122, 233, .12), 0 4px 8px rgba(101, 122, 233, .06);
+}
+
 .accordion>.card:not(:first-of-type) .card-header:first-child {
     border-radius: 0
 }
